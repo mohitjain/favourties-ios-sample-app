@@ -22,6 +22,8 @@
 		E403E4E31981275900381DE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E403E4C21981275900381DE6 /* UIKit.framework */; };
 		E403E4EB1981275900381DE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E403E4E91981275900381DE6 /* InfoPlist.strings */; };
 		E403E4ED1981275900381DE6 /* favourtiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E4EC1981275900381DE6 /* favourtiesTests.m */; };
+		E403E4F81981ACE600381DE6 /* TBFFavoriteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E4F71981ACE600381DE6 /* TBFFavoriteItem.m */; };
+		E403E4F91981ACE600381DE6 /* TBFFavoriteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E4F71981ACE600381DE6 /* TBFFavoriteItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		E403E4E81981275900381DE6 /* favourtiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "favourtiesTests-Info.plist"; sourceTree = "<group>"; };
 		E403E4EA1981275900381DE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E403E4EC1981275900381DE6 /* favourtiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = favourtiesTests.m; sourceTree = "<group>"; };
+		E403E4F61981ACE600381DE6 /* TBFFavoriteItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFFavoriteItem.h; sourceTree = "<group>"; };
+		E403E4F71981ACE600381DE6 /* TBFFavoriteItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFFavoriteItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				E403E4D01981275900381DE6 /* Main.storyboard */,
 				E403E4D31981275900381DE6 /* TBFMasterViewController.h */,
 				E403E4D41981275900381DE6 /* TBFMasterViewController.m */,
+				E403E4F61981ACE600381DE6 /* TBFFavoriteItem.h */,
+				E403E4F71981ACE600381DE6 /* TBFFavoriteItem.m */,
 				E403E4D61981275900381DE6 /* TBFDetailViewController.h */,
 				E403E4D71981275900381DE6 /* TBFDetailViewController.m */,
 				E403E4D91981275900381DE6 /* Images.xcassets */,
@@ -258,6 +264,7 @@
 				E403E4CB1981275900381DE6 /* main.m in Sources */,
 				E403E4CF1981275900381DE6 /* TBFAppDelegate.m in Sources */,
 				E403E4D81981275900381DE6 /* TBFDetailViewController.m in Sources */,
+				E403E4F81981ACE600381DE6 /* TBFFavoriteItem.m in Sources */,
 				E403E4D51981275900381DE6 /* TBFMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E403E4ED1981275900381DE6 /* favourtiesTests.m in Sources */,
+				E403E4F91981ACE600381DE6 /* TBFFavoriteItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

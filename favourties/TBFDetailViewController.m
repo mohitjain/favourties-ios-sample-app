@@ -9,6 +9,8 @@
 #import "TBFDetailViewController.h"
 
 @interface TBFDetailViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property (weak, nonatomic) IBOutlet UITextView *reasonTextView;
 - (void)configureView;
 @end
 
@@ -31,15 +33,24 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.nameTextField.text = [self.detailItem name];
+        self.reasonTextView.text = [self.detailItem reason];
     }
 }
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    self.detailItem.name = self.nameTextField.text;
+    self.detailItem.reason = self.reasonTextView.text;
+    
 }
 
 - (void)didReceiveMemoryWarning
